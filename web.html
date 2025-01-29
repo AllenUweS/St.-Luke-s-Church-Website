@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>St. Luke's Church</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9e5ea;
+            color: "pink";
+        }
+        header {
+            background-color: #ff80b3;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #ff99cc;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #ff66a3;
+        }
+        .hero-section {
+            background-image: url('C:\Users\User\Downloads');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+        }
+        .hero-section h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .hero-section p {
+            font-size: 24px;
+        }
+        .about-section {
+            background-color: #fff;
+            padding: 80px 0;
+        }
+        .about-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .about-section p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+        .about-section img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .events-section {
+            background-color: #f7f7f7;
+            padding: 80px 0;
+            text-align: center;
+        }
+        .events-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .event {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .event h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .event p {
+            font-size: 16px;
+        }
+        .contact-section {
+            background-color: #ff99cc;
+            color: #fff;
+            padding: 80px 0;
+            text-align: center;
+        }
+        .contact-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .contact-section p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .contact-form textarea {
+            resize: vertical;
+        }
+        .contact-form input[type="submit"] {
+            width: 100%;
+            padding: 12px;
+            background-color: #ff80b3;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .contact-form input[type="submit"]:hover {
+            background-color: #ff66a3;
+        }
+        .footer {
+            background-color: #ff80b3;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>St. Luke's Church</h1>
+        <p>Hosdurga, Karnataka</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero-section" id="home">
+        <div>
+            <h1>Welcome to St. Luke's Church</h1>
+            <p>Join us in worship and fellowship</p>
+        </div>
+    </div>
+    <div class="about-section" id="about">
+        <h2>About Us</h2>
+        <p>
+            <b>Established in 1998</b><br>
+            St. Luke's Church, a cherished church within the Karnataka Northern Diocese of the Church of South India,<br> 
+		has been a beacon of faith, hope, and community since its establishment in the year 1998. <br>
+		Situated in the heart of Karnataka, our church has played a pivotal role in nurturing the spiritual well-being of our congregation and serving the broader community.
+        </p>
+        <img src="C:\Users\User\Downloads\download.jpeg" alt="Church Image">
+    </div>
+    <div class="events-section" id="events">
+        <h2>Upcoming Events</h2>
+        <div class="event">
+            <h3>Event 1</h3>
+            <p>Date: December 25, 2024=3</p>
+            <p><b>Christmas</b><br>commemorating the birth of Jesus Christ< </p>
+        </div>
+        <div class="event">
+            <h3>Event 2</h3>
+            <p>Date: March 29, 2024</p>
+            <p><b>Good Friday</b><br>A Day of Reflection, Remembrance, and Redemption that the remembers the death of Jesus christ</p>
+        </div>
+ <div class="event">
+            <h3>Event 3</h3>
+            <p>Date: March 31, 2024</p>
+            <p><b>Easter</b><br> Celebrating Resurrection and Renewal celebrates the resurrection of Jesus Christ from the death</p>
+        </div>
+        <!-- Add more events as needed -->
+    </div>
+    <div class="contact-section" id="contact">
+        <h2>Contact Us</h2>
+        <p>Feel free to get in touch with us for any inquiries or prayer requests.</p>
+        <div class="contact-form">
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="4" required></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2023 St. Luke's Church. All rights reserved.</p>
+    </div>
+</body>
+</html>
